@@ -1,0 +1,167 @@
+[9:56 PM, 7/25/2024] Ch. Shivani: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Name</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+        <img src="IMG-20240528-WA0002" 
+        alt="collage picture" class="collage-pic">   
+        <h1>LOYOLA ACADEMY</h1></div>
+    </header>
+        
+        <nav>
+            <ul>
+                <li><a href="#Home page">Home Page</a></li>
+                <li><a href="#About us">About us</a></li>
+                <li><a href="#Courses">Courses</a></li>
+                <li><a href="#Gallery">Gallery</a></li>
+                <li><a href="#Contact Us">Contact Us</a></li>
+            </ul>
+        </nav>
+    <section id="Home Page" class="container">
+        <h2>Home Page</h2>
+        <a href="https://loyolaacademy.edu.in/">Home Page</a>
+        <img src="IMG-20240528-WA0002" alt="collage-picture" class="collage-pic">
+    </section>
+    
+        <section id="About Us" class="container">
+            <h2>About Us</h2>
+            <p>Loyola Academy (LA), a spacious eco-friendly campus with excellent infrastructure is managed and administered by the Catholic clergy, popularly called Jesuits of the Andhra Jesuit Province, belonging to the Society of Jesus (founded by St. Ignatius of Loyola), an International Catholic Religious Order. Loyola Academy was founded by Rev Fr T. Balaiah SJ in 1976 in Alwal, Secunderabad, Telangana.
+
+                Initially began with Intermediate courses and an associate degree in Chemical technology. Subsequently other UG programmes (1978) and PG programmes (1993) were started.
+                Loyola Academy was granted Autonomous status in 1992 for Degree courses and PG courses in 2010. Appreciating the achievements and qualitative pursuit of Higher Education needs, UGC awarded Loyola Academy “A College with Potential for Excellence” (CPE) in 2008.
+                
+                In addition to this, National Assessment and Accreditation Council (NAAC) was accredited the college in the year 2005 and reaccredited in the year 2011 with ‘A’ grade (3.50 out of 4.00 CGPA). National Institutional Ranking Framework (NIRF) ranked our College between 100-150 for both (2017-18 & 2018-19) successive years.
+                The Institution offers a unique, unrivalled array of Under Graduate and Post Graduate courses, imparting its students: potential skills which are highly relevant in today’s market and aims at moulding young minds into extraordinary individuals, who love what they do, thereby enabling young men and women to master new concepts and emerge as confident professionals in their chosen domains.</p>
+        </section>
+        <section id="Courses" class="container">
+            <h2>Courses</h2>
+            <a href="https://loyolaacademy.edu.in/academics/">Courses</a>
+<p>Loyola offers an array of courses across the arts and sciences, spanning various periods of administration. Our courses are currently all offered on campus, and are split into 3 categories:
+
+    01 Under-Graduate courses
+    Loyola offers 31 under-graduate courses, resulting in award of the B.A., B.Com. and B.Sc. degrees
+    
+    02 Post-Graduate courses
+    We also offer 7 post-graduate courses, resulting in award of the M.C.A., M.B.A. and M.Sc. degrees
+    
+    03 Foundation courses
+    The college offers foundation courses which aim to build character in an individual</p>
+        </section>
+    <section id="Gallery" class="container">
+        <h2>Gallery</h2>
+        <a href="https://loyolaacademy.edu.in/gallery/">Gallary</a>
+        <p>
+            Vignettes of life on the Loyola campus. Welcome to our universe.</p>
+    </section>
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <form id="contant-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 loyolaacademy</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+[9:56 PM, 7/25/2024] Ch. Shivani: body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(78, 231, 98);
+    color: #fff;
+    padding: 100px;
+    text-align:center ;
+}
+.profile-pic  {
+    border-radius: #b66ac5;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+
+}
+nav{
+    background-color: #050505;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #f8f7f7;
+    text-decoration: none;
+}
+.container {
+    width: 80%;
+    margin: 0 auto ;
+    padding:20px 0;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+section{
+    margin: bottom 60px; 
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form label{
+    margin-bottom: 50px;
+}
+form input,form textarea{
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form button {
+    padding:10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #d48686;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+  text text-align: center;
+}
